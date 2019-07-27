@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+if not os.environ.get("DEFAULT_PASSWORD"):
+    from harris.config import username, password
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -19,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = os.environ.get("SECRET_KEY") or "OLFOSKNaz12am3910sx" # Never used in production
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -76,11 +78,11 @@ WSGI_APPLICATION = 'harris.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql3',
+        'ENGINE': 'django.db.backends.postgresql',
         'HOST': 'ec2-107-21-120-104.compute-1.amazonaws.com',
         'NAME': 'd3ger7qa5u8kld',
-        'USER': os.environ.get("DEFAULT_USER"),
-        'PASSWORD': os.environ.get("DEFAULT_PASSWORD"),
+        'USER': os.environ.get("DEFAULT_USER") or username, # Needless to say, not used in production either
+        'PASSWORD': os.environ.get("DEFAULT_PASSWORD") or password,
         'PORT': '5432',
     }
 }
