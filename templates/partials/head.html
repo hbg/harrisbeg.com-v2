@@ -24,6 +24,53 @@
             src: url("{% static "harris/font/RobotoMono-Regular.ttf" %}")
         }
 
+        @media screen and (min-width: 1201px) {
+            body {
+                background-image: url("{% static "harris/svg/bg1-01.svg" %}");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                height: 100vh !important;
+            }
+            #profilePic {
+                margin: 5% auto 3%;
+                background: linear-gradient(#ff10c3, #9300ff);
+                width: 25%;
+                padding-top: 25%;
+            }
+        }
+        @media screen and (min-width: 601px) and (max-width: 1200px) {
+            body {
+                background-image: url("{% static "harris/svg/bg3-01.svg" %}") !important;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                height: 100vh !important;
+            }
+
+            #profilePic {
+                background: linear-gradient(#ff10c3, #9300ff);
+                width: 50%;
+                padding-top: 50%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            body {
+                background-image: url("{% static "harris/svg/bg2-01.svg" %}")  !important;
+                height: 100vh !important;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+
+            }
+            #profilePic {
+                background: linear-gradient(#ff10c3, #9300ff);
+                width: 70%;
+                padding-top: 70%;
+            }
+        }
+
     </style>
     <link rel="stylesheet" href="{% static 'harris/main.css' %}" />
     {% endcompress %}
