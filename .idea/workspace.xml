@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="247b36dd-f1ab-4300-a509-54d3b2179c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+              <caret column="51" selection-start-column="51" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -254,12 +254,12 @@
       <updated>1563838745207</updated>
       <workItem from="1563838932327" duration="783000" />
       <workItem from="1564094300349" duration="19000" />
-      <workItem from="1564160258602" duration="21135000" />
+      <workItem from="1564160258602" duration="21195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21937000" />
+    <option name="totallyTimeSpent" value="21997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -384,7 +384,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
         </state>
       </provider>
     </entry>
