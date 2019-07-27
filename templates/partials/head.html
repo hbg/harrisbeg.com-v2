@@ -2,18 +2,38 @@
 <html lang="en">
 <head>
     {% load static %}
+    {% load compress %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Harris Beg</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    {% compress css inline %}
+    <link rel="stylesheet" href="{% static 'harris/bootstrap.min.css' %}" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        @font-face {
+            font-family: "Gilroy";
+            src: url("{% static "harris/font/Gilroy-Light.otf" %}");
+        }
+
+        @font-face {
+            font-family: "Gilroy Bold";
+            src: url("{% static "harris/font/Gilroy-ExtraBold.otf" %}");
+        }
+
+        @font-face {
+            font-family: "Roboto Mono";
+            src: url("{% static "harris/font/RobotoMono-Regular.ttf" %}")
+        }
+
+    </style>
     <link rel="stylesheet" href="{% static 'harris/main.css' %}" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%20Mono&text=Don%27tCfrm" />
+    {% endcompress %}
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    {% compress js inline %}
     <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="{% static "harris/jquery-3.4.1.js" %}" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="{% static "harris/main.js" %}"></script>
+    {% endcompress %}
 </head>
 <body>
 {% if navbar %}
