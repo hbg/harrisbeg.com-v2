@@ -74,8 +74,12 @@ WSGI_APPLICATION = 'harris.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql3',
+        'HOST': 'ec2-107-21-120-104.compute-1.amazonaws.com',
+        'NAME': 'd3ger7qa5u8kld',
+        'USER': os.environ.get("DEFAULT_USER"),
+        'PASSWORD': os.environ.get("DEFAULT_PASSWORD"),
+        'PORT': '5432',
     }
 }
 
