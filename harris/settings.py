@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get("SECRET_KEY") or "OLFOSKNaz12am3910sx" # Never used in production
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = not os.environ.get("DEFAULT_PASSWORD")
 
 ALLOWED_HOSTS = []
 
