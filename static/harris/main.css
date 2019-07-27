@@ -115,11 +115,6 @@ a {
     box-shadow: 5px 5px 5px #a9a9a9;
 }
 
-#profilePic {
-    margin: 20% auto 1%;
-    border-radius: 5px;
-}
-
 ::-webkit-scrollbar {
     display: none;
 }
