@@ -55,9 +55,13 @@ h1, h2, h3, h4, h5, h6, .btn {
     text-align: left;
 }
 
+.project-col {
+    padding: 0 !important;
+}
+
 .row {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .content {
@@ -67,7 +71,7 @@ h1, h2, h3, h4, h5, h6, .btn {
     background: white;
     border-radius: 20px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 5px;
 }
 
 .card:hover {
@@ -90,6 +94,10 @@ h1, h2, h3, h4, h5, h6, .btn {
 
 .code {
     font-family: "Roboto Mono";
+}
+
+a {
+    text-decoration: none !important;
 }
 
 .black-text {

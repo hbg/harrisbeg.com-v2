@@ -16,6 +16,11 @@
     <script src="{% static "harris/main.js" %}"></script>
 </head>
 <body>
+{% if navbar %}
+    <nav class="navbar navbar-light strawberry" style="margin-bottom: 20px">
+      <a class="navbar-brand" href="/"><i class="fas fa-home"></i></a>
+    </nav>
+{% endif %}
 {% block content %}
 {% endblock %}
 </body>

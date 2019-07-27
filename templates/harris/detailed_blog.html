@@ -1,8 +1,9 @@
 {% extends "partials/head.html" %}
 {% block content %}
+    <style>a{text-decoration: none !important; color: white !important;}</style>
     <div class="content">
         <h1 style="color: {{ blog_post.color }}">{{ blog_post.title }}</h1>
-        <span class="project-description">{{ blog_post.title }}</span>
+        <span class="project-description">{{ blog_post.description }}</span>
         <p>{{ blog_post.content }}</p>
     </div>
 {% endblock %}
