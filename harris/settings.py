@@ -35,8 +35,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'harris'
+    'harris',
+    'colorfield',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
