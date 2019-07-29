@@ -8,7 +8,6 @@
     <title>Harris Beg</title>
     {% compress css inline %}
     <link rel="stylesheet" href="{% static 'harris/css/bootstrap.min.css' %}" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'harris/css/animate.css' %}" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         @font-face {
             font-family: "Gilroy";
@@ -36,7 +35,6 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center center;
-                height: 100vh !important;
             }
             #profilePic {
                 margin: 5% auto 3%;
@@ -51,7 +49,6 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center center;
-                height: 100vh !important;
             }
 
             #profilePic {
@@ -64,7 +61,6 @@
         @media screen and (max-width: 600px) {
             body {
                 background-image: url("{% static "harris/svg/topography.svg" %}")  !important;
-                height: 100vh !important;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -79,10 +75,11 @@
 
     </style>
     <link rel="stylesheet" href="{% static 'harris/css/main.css' %}" />
+    <link href="{% static "harris/css/animate.css" %}"
+          rel="stylesheet">
     {% endcompress %}
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
     {% compress js inline %}
+    <script type="text/javascript" src="{% static "harris/js/WOW.js" %}"></script>
     <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
     <script src="{% static "harris/js/jquery-3.4.1.js" %}" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="{% static "harris/js/main.js" %}"></script>
@@ -105,9 +102,11 @@
     <meta name="msapplication-TileImage" content="{% static "harris/assets/ms-icon-144x144.png" %}">
     <meta name="theme-color" content="#ff1d50">
 
+
 </head>
 <body>
 {% if navbar %}
+
     <nav class="navbar navbar-light strawberry" style="margin-bottom: 20px">
       <a class="navbar-brand" href="/"><i class="fas fa-home"></i></a>
     </nav>

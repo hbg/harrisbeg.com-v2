@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    new WOW().init();
    $('.card').each(function(_, obj) {
         let primary = $(obj).attr("color1");
         let secondary = $(obj).attr("color2");
