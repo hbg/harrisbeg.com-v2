@@ -2,8 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="247b36dd-f1ab-4300-a509-54d3b2179c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/harris/svg/topography.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/android-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/android-icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/android-icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/android-icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/android-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/android-icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/ms-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/ms-icon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/ms-icon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/assets/ms-icon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/harris/js/WOW.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/harris/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/harris/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/harris/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/harris/js/jquery-3.4.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/harris/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/harris/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/harris/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/harris/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/harris/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/harris/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/head.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/harris/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="253">
               <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
@@ -62,31 +95,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/harris/views.py">
+        <entry file="file://$PROJECT_DIR$/static/harris/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/harris/main.css">
+        <entry file="file://$PROJECT_DIR$/templates/harris/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2645">
-              <caret line="115" column="1" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/harris/blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="56" selection-start-line="2" selection-end-line="3" />
+            <state relative-caret-position="1472">
+              <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -94,16 +115,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/partials/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="64" column="71" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
+            <state relative-caret-position="207">
+              <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/harris/css/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1311" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/harris/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="69">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
@@ -157,20 +185,21 @@
         <option value="$PROJECT_DIR$/harris/models.py" />
         <option value="$PROJECT_DIR$/templates/harris/blog.html" />
         <option value="$PROJECT_DIR$/templates/harris/detailed_blog.html" />
-        <option value="$PROJECT_DIR$/templates/harris/index.html" />
         <option value="$PROJECT_DIR$/harris/urls.py" />
         <option value="$PROJECT_DIR$/harris/views.py" />
         <option value="$PROJECT_DIR$/harris/settings.py" />
         <option value="$PROJECT_DIR$/static/harris/main.css" />
+        <option value="$PROJECT_DIR$/templates/harris/index.html" />
+        <option value="$PROJECT_DIR$/static/harris/js/main.js" />
         <option value="$PROJECT_DIR$/templates/partials/head.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="876" />
+    <option name="y" value="132" />
     <option name="width" value="1104" />
-    <option name="height" value="1884" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -206,7 +235,7 @@
               <item name="harris" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="harris" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="harris" type="b2602c69:ProjectViewProjectNode" />
@@ -247,14 +276,18 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris\svg" />
-      <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris\assets" />
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris\js" />
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris\css" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris\font" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris\svg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris\js" />
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris\css" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris" />
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\harris\static\harris\svg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,23 +380,24 @@
       <workItem from="1564160258602" duration="26498000" />
       <workItem from="1564196186162" duration="6382000" />
       <workItem from="1564252852600" duration="3602000" />
-      <workItem from="1564333997920" duration="52000" />
+      <workItem from="1564333997920" duration="1316000" />
+      <workItem from="1564370623662" duration="2521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37336000" />
+    <option name="totallyTimeSpent" value="41121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27125505" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7722222" visible="true" weight="0.27611336" />
+      <window_info id="Structure" order="1" sideWeight="0.22777778" side_tool="true" weight="0.27611336" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33102253" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,7 +406,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.05586592" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.40595904" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -416,23 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/harris/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/harris/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="53" column="103" selection-start-line="53" selection-start-column="103" selection-end-line="53" selection-end-column="103" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/harris/detailed_blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -443,10 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/harris/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/static/harris/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/harris/jquery-3.4.1.js">
+    <entry file="file://$PROJECT_DIR$/static/harris/js/jquery-3.4.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/harris/svg/topography.svg">
@@ -466,19 +483,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/harris/urls.py">
+    <entry file="file://$PROJECT_DIR$/harris/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/harris/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/harris/js/WOW.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1932" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/harris/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="115" column="1" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/harris/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/harris/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/harris/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harris/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="-299">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
@@ -486,31 +538,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/harris/main.css">
+    <entry file="file://$PROJECT_DIR$/harris/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2645">
-          <caret line="115" column="1" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/harris/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="56" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/harris/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="253">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="64" column="71" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
+        <state relative-caret-position="207">
+          <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
         </state>
       </provider>
     </entry>

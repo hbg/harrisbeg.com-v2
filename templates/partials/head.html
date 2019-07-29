@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Harris Beg</title>
     {% compress css inline %}
-    <link rel="stylesheet" href="{% static 'harris/bootstrap.min.css' %}" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'harris/css/bootstrap.min.css' %}" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'harris/css/animate.css' %}" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         @font-face {
             font-family: "Gilroy";
@@ -77,15 +78,33 @@
         }
 
     </style>
-    <link rel="stylesheet" href="{% static 'harris/main.css' %}" />
+    <link rel="stylesheet" href="{% static 'harris/css/main.css' %}" />
     {% endcompress %}
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     {% compress js inline %}
     <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-    <script src="{% static "harris/jquery-3.4.1.js" %}" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="{% static "harris/main.js" %}"></script>
+    <script src="{% static "harris/js/jquery-3.4.1.js" %}" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="{% static "harris/js/main.js" %}"></script>
     {% endcompress %}
+    <link rel="apple-touch-icon" sizes="57x57" href="{% static "harris/assets/apple-icon-57x57.png" %}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{% static "harris/assets/apple-icon-60x60.png" %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static "harris/assets/apple-icon-72x72.png" %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static "harris/assets/apple-icon-76x76.png" %}">
+    <link rel="apple-touch-icon" sizes="114x114" href={% static "harris/assets/apple-icon-114x114.png" %}>
+    <link rel="apple-touch-icon" sizes="120x120" href={% static "harris/assets/apple-icon-120x120.png" %}>
+    <link rel="apple-touch-icon" sizes="144x144" href={% static "harris/assets/apple-icon-144x144.png" %}>
+    <link rel="apple-touch-icon" sizes="152x152" href={% static "harris/assets/apple-icon-152x152.png" %}>
+    <link rel="apple-touch-icon" sizes="180x180" href={% static "harris/assets/apple-icon-180x180.png" %}>
+    <link rel="icon" type="image/png" sizes="192x192" href="{% static "harris/assets/android-icon-192x192.png" %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static "harris/assets/favicon-32x32.png" %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static "harris/assets/favicon-96x96.png" %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static "harris/assets/favicon-16x16.png" %}">
+    <link rel="manifest" href="{% static "harris/assets/manifest.json" %}">
+    <meta name="msapplication-TileColor" content="#a44d9d">
+    <meta name="msapplication-TileImage" content="{% static "harris/assets/ms-icon-144x144.png" %}">
+    <meta name="theme-color" content="#a44d9d">
+
 </head>
 <body>
 {% if navbar %}
