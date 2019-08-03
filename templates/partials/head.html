@@ -24,9 +24,25 @@
             src: url("{% static "harris/font/RobotoMono-Regular.ttf" %}")
         }
 
+        @keyframes jumpAround {
+            0% {
+                background-position: left top;
+            }
+            50% {
+                background-position: right top;
+            }
+            100% {
+                background-position: left top;
+            }
+        }
+
         #profilePic {
             margin: 20% auto 1%;
             border-radius: 5px;
+        }
+
+        body {
+            animation: jumpAround infinite 60s !important;
         }
 
         @media screen and (min-width: 1201px) {
@@ -34,7 +50,6 @@
                 background-image: url("{% static "harris/svg/topography.svg" %}");
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-position: center center;
             }
             #profilePic {
                 margin: 5% auto 3%;
@@ -48,7 +63,6 @@
                 background-image: url("{% static "harris/svg/topography.svg" %}") !important;
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-position: center center;
             }
 
             #profilePic {
@@ -63,7 +77,6 @@
                 background-image: url("{% static "harris/svg/topography.svg" %}")  !important;
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-position: center center;
 
             }
             #profilePic {

@@ -8,6 +8,7 @@
     src: url("../font/Gilroy-ExtraBold.otf");
 }
 
+
 * {
     transition: all ease-in-out 200ms;
     font-family: "Gilroy";
